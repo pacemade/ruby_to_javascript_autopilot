@@ -72,7 +72,8 @@ for(var i=0; i < 20; i++){
 var total = 0
 for(var i=0; i <= 100; i++){
   var result = (total += i);
-} console.log(result);
+}
+console.log(result);
 
 
 // (3..15).each do |height|
@@ -90,7 +91,7 @@ for (var i = 3; i <= 15; i++) {
   } else {
     console.log('You are are a short motherfucker and cannot ride this rollercoaster!');
   }
-};
+}
 
 
 // containers = ['purse', 'wallet', 'backback']
